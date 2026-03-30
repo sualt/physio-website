@@ -1,11 +1,11 @@
-import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/Footer'
-import HeroSection from '@/components/sections/HeroSection'
-import ServicesSection from '@/components/sections/ServicesSection'
-import WhyUsSection from '@/components/sections/WhyUsSection'
-import TestimonialsSection from '@/components/sections/TestimonialsSections'
-import CTASection from '@/components/sections/CTASection'
-import ChatBot from '@/components/ui/ChatBot' // Dosya adı ChatBot.tsx ise import da ChatBot
+import Navbar from &apos;@/components/layout/Navbar&apos;
+import Footer from &apos;@/components/layout/Footer&apos;
+import HeroSection from &apos;@/components/sections/HeroSection&apos;
+import ServicesSection from &apos;@/components/sections/ServicesSection&apos;
+import WhyUsSection from &apos;@/components/sections/WhyUsSection&apos;
+import TestimonialsSection from &apos;@/components/sections/TestimonialsSections&apos;
+import CTASection from &apos;@/components/sections/CTASection&apos;
+import ChatBot from &apos;@/components/ui/ChatBot&apos; // Dosya adı ChatBot.tsx ise import da ChatBot
 
 export default function AnaSayfa() {
   return (
