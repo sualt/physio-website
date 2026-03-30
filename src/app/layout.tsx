@@ -1,19 +1,19 @@
-import type { Metadata } from &apos;next&apos;
-import &apos;./globals.css&apos;
+import type { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: {
-    default: &apos;FizyoKlinik | Kişiye Özel Fizyoterapi & Rehabilitasyon&apos;,
-    template: &apos;%s | FizyoKlinik&apos;,
+    default: 'FizyoKlinik | Kişiye Özel Fizyoterapi & Rehabilitasyon',
+    template: '%s | FizyoKlinik',
   },
-  description: &apos;Manuel terapi, klinik pilates, ortopedik rehabilitasyon ve spor yaralanmalarında uzman fizyoterapi kliniği.&apos;,
-  keywords: [&apos;fizyoterapi&apos;,&apos;rehabilitasyon&apos;,&apos;manuel terapi&apos;,&apos;klinik pilates&apos;,&apos;bel ağrısı&apos;,&apos;skolyoz&apos;],
+  description: 'Manuel terapi, klinik pilates, ortopedik rehabilitasyon ve spor yaralanmalarında uzman fizyoterapi kliniği.',
+  keywords: ['fizyoterapi','rehabilitasyon','manuel terapi','klinik pilates','bel ağrısı','skolyoz'],
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang=&quot;tr&quot;>
-      <body className=&quot;antialiased&quot;>
+    <html lang="tr">
+      <body className="antialiased">
         {children}
       </body>
     </html>
