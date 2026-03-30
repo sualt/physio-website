@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
-import Chatbot from '@/components/ui/ChatBot'
+import ChatBot from '@/components/ui/ChatBot'
 import CTASection from '@/components/sections/CTASection'
 import { UZMANLAR } from '@/lib/constants'
 
@@ -39,7 +39,7 @@ export default function UzmanlarSayfasi() {
         <CTASection />
       </main>
       <Footer />
-      <Chatbot />
+      <ChatBot />
     </>
   )
 }

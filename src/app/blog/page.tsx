@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
-import Chatbot from '@/components/ui/ChatBot'
+import ChatBot from '@/components/ui/ChatBot'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
@@ -87,7 +87,7 @@ export default function BlogSayfasi() {
         </div>
       </main>
       <Footer />
-      <Chatbot />
+      <ChatBot />
     </>
   )
 }

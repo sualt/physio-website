@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
-import Chatbot from '@/components/ui/ChatBot'
+import ChatBot from '@/components/ui/ChatBot'
 import CTASection from '@/components/sections/CTASection'
 
 export const metadata: Metadata = { title: 'Hakkımızda' }
@@ -71,7 +71,7 @@ export default function HakkimizdaSayfasi() {
         <CTASection />
       </main>
       <Footer />
-      <Chatbot />
+      <ChatBot />
     </>
   )
 }
