@@ -24,7 +24,7 @@ const config: Config = {
         },
         gold: { 400: '#d4a853', 500: '#c49535' },
         cream: '#faf8f5',
-        charcoal: '#1a1a2e',
+        charcoal: '#1f2937',
       },
       fontFamily: {
         display: ['Cormorant Garamond', 'serif'],

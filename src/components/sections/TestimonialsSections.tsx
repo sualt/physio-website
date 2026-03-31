@@ -58,7 +58,7 @@ export default function TestimonialsSection() {
               <div className="flex gap-0.5 mb-4">
                 {[...Array(y.yildiz)].map((_, j) => <Star key={j} size={13} className="fill-yellow-400 text-yellow-400"/>)}
               </div>
-              <p className="text-gray-600 text-sm leading-relaxed flex-1 mb-5 italic">"{y.yorum}"</p>
+              <p className="text-gray-600 text-sm leading-relaxed flex-1 mb-5 italic">&ldquo;{y.yorum}&rdquo</p>
               <div className="flex items-center gap-3 border-t border-gray-100 pt-4">
                 <div className="w-9 h-9 rounded-full bg-primary-600 flex items-center justify-center text-xs font-medium text-white">
                   {y.harf}

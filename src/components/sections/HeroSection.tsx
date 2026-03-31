@@ -102,7 +102,7 @@ export default function HeroSection() {
               <span className="text-primary-300 text-sm ml-1">(127 değerlendirme)</span>
             </div>
             <p className="text-primary-200 text-sm italic leading-relaxed">
-              "3 yıldır çektiğim bel ağrısından 6 seansta kurtuldum. Tedavi yaklaşımları gerçekten farklı ve sonuç odaklı."
+              &ldquo;3 yıldır çektiğim bel ağrısından 6 seansta kurtuldum. Tedavi yaklaşımları gerçekten farklı ve sonuç odaklı.&rdquo;
             </p>
             <div className="mt-3 flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center text-xs text-white font-medium">AK</div>

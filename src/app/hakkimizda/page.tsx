@@ -62,7 +62,7 @@ export default function HakkimizdaSayfasi() {
                 Yıllar içinde uzman kadromuzu büyüttük, ekipmanlarımızı yeniledik ve uluslararası standartlarda eğitimler alarak bilgimizi güncel tuttuk. Bugün Manuel Terapi, Klinik Pilates, Reformer ve daha birçok alanda hizmet sunuyoruz.
               </p>
               <p>
-                1200'den fazla hastaya dokunmanın verdiği sorumluluk ve gurçla, daha iyi bir sağlık sistemi için çalışmaya devam ediyoruz.
+                1200&apos;den fazla hastaya dokunmanın verdiği sorumluluk ve gurçla, daha iyi bir sağlık sistemi için çalışmaya devam ediyoruz.
               </p>
             </div>
           </div>
